@@ -56,7 +56,12 @@ pipeline {
                 script {
                     dir(PROJECT_DIR) {
                         try {
+                            // Run the build command
                             bat 'npm run build || exit 1'
+                            
+                            // Check if the build directory exists and list its contents
+                            bat "if exist build (echo Build directory exists) else (echo Build directory does not exist)"
+                            bat "dir ${PROJECT_DIR}\\build"  // This will show the contents of the build directory
                         } catch (Exception e) {
                             echo "Build failed: ${e.message}"
                             currentBuild.result = 'FAILED'
