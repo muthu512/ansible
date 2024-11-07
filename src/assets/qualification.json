@@ -1,0 +1,262 @@
+[
+    {
+    "id":1,
+    "name":"BE",
+    "discription":"Bachelor of Engineering"
+},
+{
+    "id":2,
+    "name":"BA",
+    "discription":"Bachelor of Arts"
+},
+{
+    "id":3,
+    "name":"BSc",
+    "discription":"Bachelor of Science"
+},
+{
+    "id":4,
+    "name":"BL",
+    "discription":"Bachelor of Laws"
+},
+{
+    "id":5,
+    "name":"BBA",
+    "discription":"Bachelor of Business Admistration"
+},
+{
+    "id":6,
+    "name":"Bio",
+    "discription":"Biotechnology"
+},
+{
+    "id":7,
+    "name":"BCom",
+    "discription":"Bachelor of Commerce"
+},
+{
+    "id":8,
+    "name":"BCA",
+    "discription":"Bachelor of Computer Application"
+},
+{
+    "id":9,
+    "name":"BTech",
+    "discription":"Bachelor of Technology"
+},
+{
+    "id":10,
+    "name":"BArch",
+    "discription":"Bachelor of Architecture"
+},
+{
+    "id":11,
+    "name":"MBBS",
+    "discription":"Bachelor of Medicine and Bachelor of Surgery"
+},
+{
+    "id":12,
+    "name":"BHM",
+    "discription":"Bachelor of Hotel Management"
+},
+{
+    "id":13,
+    "name":"BPharm",
+    "discription":"Bachelor of Pharmacy"
+},
+{
+    "id":14,
+    "name":"BDes",
+    "discription":"Bachelor of Design"
+},
+{
+    "id":15,
+    "name":"BJMC",
+    "discription":"Bachelor of Journalism & Mass Communication"
+},
+{
+    "id":16,
+    "name":"BDS",
+    "discription":"Bachelor of Dental Surgery"
+},
+{
+    "id":17,
+    "name":"BTS",
+    "discription":"Bachelor of Tourism Studies"
+},
+{
+    "id":18,
+    "name":"CA",
+    "discription":"Chartered Accountancy"
+},
+{
+    "id":19,
+    "name":"BFA",
+    "discription":"Bachelor of Fine Arts"
+},
+{
+    "id":20,
+    "name":"BA-LLB",
+    "discription":"Bachelor of Arts and Bachelor of Legislative Law"
+},
+{
+    "id":21,
+    "name":"BBS",
+    "discription":"Bachelor of Business Studies"
+},
+{
+    "id":22,
+    "name":"Diploma",
+    "discription":"Diploma"
+},
+{
+    "id":23,
+    "name":"12th",
+    "discription":"Higher Secondary Education"
+},
+{
+    "id":24,
+    "name":"10Th",
+    "discription":"SSLC"
+},
+{
+    "id":25,
+    "name":"ME",
+    "discription":"Master of Engineering"
+},
+{
+    "id":26,
+    "name":"MA",
+    "discription":"Master of Arts"
+},
+{
+    "id":27,
+    "name":"MSc",
+    "discription":"Master of Science"
+},
+{
+    "id":28,
+    "name":"MCom",
+    "discription":"Master of Commerce"
+},
+{
+    "id":29,
+    "name":"MRes",
+    "discription":"Master of Research"
+},
+{
+    "id":30,
+    "name":"MPhil",
+    "discription":"Master of Philosophy"
+},
+{
+    "id":31,
+    "name":"MD",
+    "discription":"Doctorate of Medicine"
+},
+{
+    "id":32,
+    "name":"MSt",
+    "discription":"Master of Studies"
+},
+{
+    "id":33,
+    "name":"MBA",
+    "discription":"Master of Business Administaration"
+},
+{
+    "id":34,
+    "name":"MCA",
+    "discription":"Master of Computer Application"
+},
+{
+    "id":35,
+    "name":"MLS",
+    "discription":"Master of Library Science"
+},
+{
+    "id":36,
+    "name":"MPA",
+    "discription":"Master of Public Adminnistration"
+},
+{
+    "id":37,
+    "name":"LLM",
+    "discription":"Master of Laws"
+},
+{
+    "id":38,
+    "name":"MArch",
+    "discription":"Master of Architecture"
+},
+{
+    "id":39,
+    "name":"MAgri",
+    "discription":"Master of Agriculture"
+},
+{
+    "id":40,
+    "name":"PhD",
+    "discription":"Doctor of Philosophy"
+},
+{
+    "id":41,
+    "name":"PhD(B)",
+    "discription":"Biology PhD"
+},
+{
+    "id":42,
+    "name":"PhD(A)",
+    "discription":"Accounting PhD"
+},
+{
+    "id":43,
+    "name":"PhD(ST)",
+    "discription":"Science and Technology PhD"
+},
+{
+    "id":44,
+    "name":"PhD(ER)",
+    "discription":"Engineering and Robotics PhD"
+},
+{
+    "id":45,
+    "name":"PhD(H)",
+    "discription":"History PhD"
+},
+{
+    "id":46,
+    "name":"PhD(M)",
+    "discription":"Medicine PhD"
+},
+{
+    "id":47,
+    "name":"PhD(P)",
+    "discription":"Politics PhD"
+},
+{
+    "id":48,
+    "name":"BIT",
+    "discription":"Bachelor of Information Technology"
+},
+{
+    "id":49,
+    "name":"M>TECH",
+    "discription":"Masters of Technology"
+},
+{
+    "id":50,
+    "name":"ITI",
+    "discription":"Industrial Training Institute"
+},
+{
+    "id":51,
+    "name":"Others",
+    "discription":"Others"
+},
+{
+    "id":52,
+    "name":"N/A",
+    "discription":"N/A"
+}
+]

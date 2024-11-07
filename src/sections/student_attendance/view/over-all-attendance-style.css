@@ -1,0 +1,156 @@
+
+.attendance-table {
+    margin: 3px 20px;
+    overflow: scroll;
+    height:80vh;
+  }
+  .attendance-table::-webkit-scrollbar{
+    width: 0;
+  }
+  .table {
+    width: fit-content;
+    border: 1px solid rgb(211, 211, 211);
+    border-collapse: collapse;
+    cursor: default;
+  }
+
+  .index{
+    width: 35px;
+    font-size: 10px;
+    text-align: center;
+  }  
+
+ .td {
+    border: 1px solid rgb(211, 211, 211);
+    padding: 2px 5px;
+  }
+  
+  .th{
+    border: 1px solid rgb(211, 211, 211);
+    background-color: orange;
+    color: #212B36;
+    padding:0 5px;
+    font-size: 8px;
+  }
+  .tr{
+    font-size: 8px;
+    background-color: white;
+  }
+  .tr:nth-child(even){
+    background-color: rgba(240, 240, 240);
+  }
+  .month{
+    min-width: 40px;
+
+  }
+  .name{
+    min-width: 180px;
+    font-size: 10px;
+    text-align: left;
+  }
+  .course{
+    min-width: 160px;
+    font-size: 10px;
+    text-align: center;
+  }
+  .tableRow{
+    text-align: center;
+  }
+  .thead{
+    position:sticky;
+    top: 0;
+    z-index: 2;
+  }
+ .sticky{
+  position: sticky;
+  left: 30px;
+  border: none;
+  border-bottom: 1px solid rgb(211, 211, 211);
+ }
+ .courseSticky{
+  position: sticky;
+  left: 209px;
+  border-bottom: 1px solid rgb(211, 211, 211); 
+ }
+ .odd{
+  background-color: white;
+ }
+.even{
+  background-color: rgba(240, 240, 240);
+ }
+  .sticky1+th{
+  background-color: orange;
+ }
+ .sticky1{
+  position: sticky;
+  left: 0px;
+  border: none;
+  border-bottom: 1px solid rgb(211, 211, 211);
+ }
+ .header{
+  margin: 0 20px;
+  display: flex;
+  justify-content: space-between;
+ }
+ .header h5{
+  margin: 0;
+ }
+ .grid:hover h5,.grid:hover h5 .icon{
+ color: #1877f2 !important;
+ }
+
+  @media (max-width: 800px) {
+    .attendance-table {
+     overflow: scroll;
+    }
+    .table{
+       min-width: 100%;
+    }
+    .thead{
+        top: 0px;
+    }
+    .trainerName{
+      font-size: 0.7rem;
+    }
+  }
+  @media (min-width: 1440px) and (max-width:2860px){
+    .th,.tr,.index,.name{
+      font-size: 13px;
+    }
+    .th{
+      padding: 5px;
+    }
+  }
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  .attendance-table, .attendance-table, .attendance-table * {
+    visibility: visible;
+    overflow: unset;
+  }
+  .header,.header,.header *{
+    visibility: visible;
+  }
+
+  .attendance-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .attendance-table th, .attendance-table td {
+    border: 1px solid #000;
+    padding: 5px;
+    
+  }
+  .index{
+    text-align: center;
+  }
+  .thead{
+    position: inherit;
+  }
+  .sticky, .sticky1{
+    position: unset;
+  }
+}

@@ -1,0 +1,1 @@
+export { default as RegisterViwe } from './register-view';

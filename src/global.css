@@ -1,0 +1,7 @@
+/* scrollbar */
+@import 'simplebar-react/dist/simplebar.min.css';
+
+.ag-header-cell-label {
+  justify-content: center;
+}
+

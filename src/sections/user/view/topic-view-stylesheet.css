@@ -1,0 +1,60 @@
+
+
+.syllabus-container {
+    margin: 10px 20px 20px 20px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .syllabus-table {
+    min-width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  .syllabus-header {
+    background-color: orange;
+    padding: 2px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+    color: whitesmoke;
+  }
+  
+  .syllabus-cell {
+    padding: 0px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+  }
+  .syllabus-row:nth-child(even){
+    background-color: #e6e4e4;
+  }
+  .syllabus-row:nth-child(even):hover{
+    background-color: wheat;
+  }
+  .syllabus-row:nth-child(odd):hover{
+    background-color: wheat;
+  }
+  .topics{
+    text-align: left;
+  }
+  
+  .s-no,.edit,.hours{
+    text-align: center;
+  }
+  @media (max-width: 1000px) {
+    .syllabus-container{
+        overflow: scroll;
+    }
+    .syllabus-table{
+        width:900px;
+        
+    }
+  }
+  @media print {
+    body * {
+      visibility: hidden;
+    }
+  
+    .syllabus-table, .syllabus-table * {
+      visibility: visible;
+    }}

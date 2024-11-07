@@ -1,0 +1,47 @@
+@keyframes showFormAnimation {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes showReportAnimation {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes showButtonAnimation {
+  from {
+    opacity: 0;
+    transform: translatex(100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translatex(0);
+  }
+}
+
+.formCardT {
+  animation: showFormAnimation 0.3s ease-in-out;
+}
+
+.reportCardT {
+  animation: showReportAnimation 0.3s ease-in-out;
+}
+
+.tableButtons {
+  animation: showButtonAnimation 0.3s ease-in-out;
+}

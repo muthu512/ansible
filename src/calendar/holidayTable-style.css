@@ -1,0 +1,195 @@
+/* Container for the entire calendar */
+.calendar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin: 20px auto; */
+  width: 20vw; /* Set width to 40% of viewport width */
+  max-width: 600px; /* Optional: Set a maximum width to prevent excessive scaling */
+  min-width: 300px; /* Optional: Set a minimum width to maintain usability on very small screens */
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+/* Header section with navigation buttons and month/year label */
+.calendar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* ----------- */
+.column-days {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.weekdays span{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  background: orange;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.calendar-header h1 {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 600;
+  color: #333;
+}
+.calendar-header h1:hover{
+  cursor: default;
+}
+.calendar-header button {
+  /* background: black; */
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 8px 12px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.calendar-header button:hover {
+  background-color: orange;
+  color: whitesmoke;
+}
+
+.calendar-header button:active {
+  transform: scale(0.98);
+}
+
+/* Grid layout for calendar days */
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  width: 100%;
+}
+
+/* Styling for each day cell */
+.calendar-day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9f9f9;
+  border-radius:5px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+  min-height: 30px;
+  transition: background-color 0.3s;
+}
+
+.calendar-day:hover{
+  background-color: #f0f0f0;
+  cursor:default;
+}
+span:hover{
+  cursor:default;
+}
+
+/* Highlight the current day */
+.calendar-day.today {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Styling for holiday labels */
+.holiday-label {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ddd; /* Change this color to fit your theme */
+  text-align: center;
+  background:orange;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Responsive design */
+@media (max-width: 1020px) {
+  .calendar-header h1 {
+    font-size: 17px;
+  }
+  .holiday-table{
+    width: 70vw;
+    overflow: scroll;
+  }
+  
+}
+.view{
+  display: flex;
+  gap: 10px;
+}
+@media (max-width: 620px) {
+  .view{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .calendar-header h1{
+    font-size: 13px;
+  }
+  .weekdays span{
+    font-size: 13px;
+  }
+  .calendar-grid{
+    font-size: 10px;
+  }
+  .holiday-table h1,.holiday-table td{
+    font-size: 15px;
+  }
+
+}
+.holiday-table {
+  margin: 20px ;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+}
+
+.holiday-table h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.holiday-table table {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.holiday-table th, .holiday-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.holiday-table th {
+  background-color: orange;
+  min-width: 170px;
+  color: whitesmoke;
+}
+
+.holiday-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}

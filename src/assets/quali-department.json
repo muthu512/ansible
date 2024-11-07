@@ -1,0 +1,247 @@
+[
+    {
+        "id": 1,
+        "name": "Computer Science",
+        "description": "BE Computer Science"
+    },
+    {
+        "id": 2,
+        "name": "Electrical Engineering",
+        "description": "BE Electrical Engineering"
+    },
+    {
+        "id": 3,
+        "name": "Mechanical Engineering",
+        "description": "BE Mechanical Engineering"
+    },
+    {
+        "id": 4,
+        "name": "Civil Engineering",
+        "description": "BE Civil Engineering"
+    },
+    {
+        "id": 5,
+        "name": "Electronics and Communication Engineering",
+        "description": "BE Electronics and Communication Engineering"
+    },
+    {
+        "id": 6,
+        "name": "Information Technology",
+        "description": "BE Information Technology"
+    },
+    {
+        "id": 7,
+        "name": "Chemical Engineering",
+        "description": "BE Chemical Engineering"
+    },
+    {
+        "id": 8,
+        "name": "Biotechnology",
+        "description": "BE Biotechnology"
+    },
+    {
+        "id": 9,
+        "name": "Architecture",
+        "description": "B.Arch Architecture"
+    },
+    {
+        "id": 10,
+        "name": "Pharmacy",
+        "description": "B.Pharm Pharmacy"
+    },
+    {
+        "id": 11,
+        "name": "Business Administration",
+        "description": "BBA Business Administration"
+    },
+    {
+        "id": 12,
+        "name": "Commerce",
+        "description": "B.Com Commerce"
+    },
+    {
+        "id": 13,
+        "name": "Science",
+        "description": "B.Sc Science"
+    },
+    {
+        "id": 14,
+        "name": "Arts",
+        "description": "BA Arts"
+    },
+    {
+        "id": 15,
+        "name": "Nursing",
+        "description": "B.Sc Nursing"
+    },
+    {
+        "id": 16,
+        "name": "Law",
+        "description": "5-year Integrated LLB"
+    },
+    {
+        "id": 19,
+        "name": "Chemistry",
+        "description": "Master of Science in Chemistry"
+    },
+    {
+        "id": 20,
+        "name": "Physics",
+        "description": "Master of Science in Physics"
+    },
+    {
+        "id": 21,
+        "name": "Mathematics",
+        "description": "Master of Science in Mathematics"
+    },
+    {
+        "id": 23,
+        "name": " English",
+        "description": "Master of Arts in English"
+    },
+    {
+        "id": 24,
+        "name": " History",
+        "description": "Master of Arts in History"
+    },
+    {
+        "id": 25,
+        "name": " Economics",
+        "description": "Master of Arts in Economics"
+    },
+    {
+        "id": 26,
+        "name": "MSW",
+        "description": "Master of Social Work"
+    },
+    {
+        "id": 27,
+        "name": " Computer Science",
+        "description": "Master of Technology in Computer Science"
+    },
+    {
+        "id": 28,
+        "name": " Structural Engineering",
+        "description": "Master of Technology in Structural Engineering"
+    },
+    {
+        "id": 29,
+        "name": " VLSI Design",
+        "description": "Master of Technology in VLSI Design"
+    },
+    {
+        "id": 30,
+        "name": " Power Systems",
+        "description": "Master of Technology in Power Systems"
+    },
+    {
+        "id": 31,
+        "name": " Software Engineering",
+        "description": "Master of Technology in Software Engineering"
+    },
+    {
+        "id": 32,
+        "name": "Diploma in Engineering",
+        "description": "Diploma in various engineering fields"
+    },
+    {
+        "id": 33,
+        "name": "Diploma in Pharmacy",
+        "description": "Diploma in Pharmacy"
+    },
+    {
+        "id": 34,
+        "name": "Diploma in Computer Applications",
+        "description": "Diploma in Computer Applications"
+    },
+    {
+        "id": 35,
+        "name": "Diploma in Nursing",
+        "description": "Diploma in Nursing"
+    },
+    {
+        "id": 36,
+        "name": "ITI Electrical",
+        "description": "Industrial Training Institute in Electrical"
+    },
+    {
+        "id": 37,
+        "name": "ITI Mechanical",
+        "description": "Industrial Training Institute in Mechanical"
+    },
+    {
+        "id": 38,
+        "name": "ITI Fitter",
+        "description": "Industrial Training Institute in Fitting"
+    },
+    {
+        "id": 39,
+        "name": "ITI Welder",
+        "description": "Industrial Training Institute in Welding"
+    },
+    {
+        "id": 40,
+        "name": " Digital Marketing",
+        "description": "Certificate course in Digital Marketing"
+    },
+    {
+        "id": 41,
+        "name": " Data Science",
+        "description": "Certificate course in Data Science"
+    },
+    {
+        "id": 42,
+        "name": " Graphic Designing",
+        "description": "Certificate course in Graphic Designing"
+    },
+    {
+        "id": 43,
+        "name": " Web Development",
+        "description": "Certificate course in Web Development"
+    },
+    {
+        "id": 44,
+        "name": " Management",
+        "description": "Post Graduate Diploma in Management"
+    },
+    {
+        "id": 45,
+        "name": " Financial Management",
+        "description": "Post Graduate Diploma in Financial Management"
+    },
+    {
+        "id": 46,
+        "name": " Human Resource Management",
+        "description": "Post Graduate Diploma in Human Resource Management"
+    },
+    {
+        "id": 47,
+        "name": " Marketing Management",
+        "description": "Post Graduate Diploma in Marketing Management"
+    },
+    {
+        "id": 48,
+        "name": " International Business",
+        "description": "Post Graduate Diploma in International Business"
+    },
+    {
+        "id": 49,
+        "name": "Fashion Design",
+        "description": "Fashion Design"
+    },
+    {
+        "id": 50,
+        "name": "Interior Design",
+        "description": "Interior Design"
+    },
+    {
+        "id": 51,
+        "name": "N/A",
+        "description": ""
+    },
+    {
+        "id": 52,
+        "name": "Computer Application",
+        "description": "Interior Design"
+    }
+]
