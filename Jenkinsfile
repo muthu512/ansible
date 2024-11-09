@@ -4,7 +4,7 @@ pipeline {
     environment {
         PROJECT_DIR = "C:\\Users\\Dell-Lap\\Documents\\login360ui"
         TOMCAT_DIR = "C:\\Program Files\\Apache Software Foundation\\Tomcat 9.0\\webapps"
-        APP_NAME = "hello-world-app"
+        APP_NAME = "login360ui"
     }
 
     stages {
